@@ -4,8 +4,6 @@ const withNextra = require("nextra")({
 });
 const nextConfig = {
   ...withNextra(),
-  images: {
-    unoptimized: true,
-  },
+  
 }
 module.exports = nextConfig
