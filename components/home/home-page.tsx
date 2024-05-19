@@ -9,20 +9,17 @@ export default function Home() {
                 <div className="bg-neutral-900">
                     <div className="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-24">
                         <h1 className="font-semibold text-white text-5xl md:text-6xl">
-                            <span className="text-[#ff0]">Preline Agency:</span> Transforming ideas
-                            into reality
+                            <span className="text-[#ff0]">FastML:</span> The machine learning boilder plate
                         </h1>
                         <div className="max-w-4xl">
                             <p className="mt-5 text-neutral-400 text-lg">
-                                It is a creative hub where imagination meets craftsmanship to
-                                transform ideas into tangible realities. At Preline Agency, we
-                                specialize in turning conceptual visions into concrete forms, whether
-                                it be through design, artistry, or technological innovation.
+                                
                             </p>
                         </div>
                     </div>
                 </div>
                 {/* End Hero */}
+                
                 {/* Clients */}
                 <div className="relative overflow-hidden pt-4 bg-neutral-900">
                     <svg
@@ -235,6 +232,7 @@ export default function Home() {
                     </div>
                 </div>
                 {/* End Clients */}
+                
                 {/* Case Stories */}
                 <div className="bg-neutral-900 bg-gradient-to-t from-black to-transparent">
                     <div className="max-w-5xl px-4 xl:px-0 py-24 mx-auto">
