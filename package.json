@@ -18,11 +18,17 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
-    "next": "13.4.0",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@tabler/icons-react": "^3.5.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.6",
+    "mini-svg-data-uri": "^1.4.4",
+    "next": "^13.5.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
