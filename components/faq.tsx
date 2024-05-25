@@ -18,22 +18,24 @@ export default function Faq() {
             {/*  */}
             <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
-                    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+                    <AccordionTrigger>What do i get exactly</AccordionTrigger>
                     <AccordionContent>
-                        Yes. It adheres to the WAI-ARIA design pattern.
+                        1. The NextJS starter with all the boilerplate code you need to start building your ML workflows.<br />
+                        2. The documentation helps you set up your pipelines from scratch<br />
+
+                        3. Access to our Discord with makers who build fast to stay accountable!<br />
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2">
-                    <AccordionTrigger>Is it styled?</AccordionTrigger>
+                    <AccordionTrigger>My tech stack is different, can I still use it?</AccordionTrigger>
                     <AccordionContent>
-                        Yes. It comes with default styles that matches the other
-                        components&apos; aesthetic.
+                        Yes, as long as you're comfortable with Python .
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
-                    <AccordionTrigger>Is it animated?</AccordionTrigger>
+                    <AccordionTrigger>Can I get a refund?</AccordionTrigger>
                     <AccordionContent>
-                        Yes. It's animated by default, but you can disable it if you prefer.
+                        After you've got access to the repo, FastML is yours forever, so it can't be refunded.
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>
