@@ -2,11 +2,11 @@ import React from "react";
 
 function PythonIcon() {
   return (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center ">
+    <div className="flex flex-1 max-w-full w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center ">
 
   
     <svg
-    className="p-8 dark:fill-white fill-black "
+    className="p-8 dark:fill-white fill-black w-full"
       xmlns="http://www.w3.org/2000/svg"
       width="699"
       height="640"
