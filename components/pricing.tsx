@@ -37,8 +37,8 @@ export default function Pricing() {
             <div className="grid grid-cols-2  gap-6 lg:gap-8">
 
 
-              <PricingCard features={starterFeatures} link="" price={99} variant="Starter" />
-              <PricingCard features={allinFeatures} link="" price={129} variant="All-in" />
+              <PricingCard features={starterFeatures} link="https://fastml.lemonsqueezy.com/buy/7a4d3c38-3889-482d-bcd3-c0ac47fdff7c?enabled=391877" price={99} variant="Starter" />
+              <PricingCard features={allinFeatures} link="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880" price={129} variant="All-in" />
 
             </div>
             {/* End Grid */}
