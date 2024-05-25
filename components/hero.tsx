@@ -20,22 +20,19 @@ export default function Hero() {
             duration: 0.5,
             ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white  max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
         >
-        With insomnia, nothing&apos;s real. Everything is far away. Everything
-        is a{" "}
-        <Highlight className="text-black dark:text-white">
-          copy, of a copy, of a copy.
-        </Highlight>
+        Simplify your ML workflow, maximize your impact.{" "}
       </motion.h1>
     <div className="mx-40 flex justify-center text-center">
       <HoverBorderGradient
         containerClassName="rounded-full"
         as="button"
+        
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
       >
         {/* <AceternityLogo /> */}
-        <span>Get Started</span>
+        <a href="https://mk18.lemonsqueezy.com/buy/5322a8e0-095e-4346-8e7e-726bf768b22e">Get Started</a>
       </HoverBorderGradient>
     </div>
     </HeroHighlight>

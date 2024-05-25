@@ -14,7 +14,7 @@ export default function Faq() {
         <div className="mx-auto max-w-4xl min-w-0 space-y-2">
             <h2 className="scroll-m-20 text-4xl font-bold tracking-tight text-black dark:text-white">FAQ
             </h2>
-            <p className="text-lg text-zinc-400">Have another question? Contact me on Twitter or by email.</p>
+            <p className="text-lg text-zinc-500 dark:text-zinc-400">Have another question? Contact me on Twitter or by email.</p>
             {/*  */}
             <Accordion type="single" collapsible className="w-full">
                 <AccordionItem value="item-1">
