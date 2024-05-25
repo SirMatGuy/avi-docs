@@ -1,5 +1,6 @@
 import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
 const logo = (
   <div>
 
@@ -51,6 +52,55 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
     text: 'Fast ML - The Python ML Boilderplate',
+  },
+  head: function useHead() {
+    const { title } = useConfig()
+    const { route } = useRouter()
+    // const socialCard =
+    //   route === '/' || !title
+    //     ? 'https://nextra.site/og.jpeg'
+    //     : `https://nextra.site/api/og?title=${title}`
+
+    return (
+      <>
+        <meta name="msapplication-TileColor" content="#fff" />
+        <meta name="theme-color" content="#fff" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="Content-Language" content="en" />
+        <meta
+          name="description"
+          content="Create ML Pipelines with ease."
+        />
+        <meta
+          name="og:description"
+          content="Create ML Pipelines with ease."
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        {/* <meta name="twitter:image" content={socialCard} /> */}
+        <meta name="twitter:site:domain" content="fastml.site" />
+        <meta name="twitter:url" content="https://fastml.site" />
+        <meta
+          name="og:title"
+          content={title ? title + ' – FastML' : 'FastML'}
+        />
+        {/* <meta name="og:image" content={socialCard} /> */}
+        <meta name="apple-mobile-web-app-title" content="FastML" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link
+          rel="icon"
+          href="/favicon-dark.svg"
+          type="image/svg+xml"
+          media="(prefers-color-scheme: dark)"
+        />
+        <link
+          rel="icon"
+          href="/favicon-dark.png"
+          type="image/png"
+          media="(prefers-color-scheme: dark)"
+        />
+      </>
+    )
   },
 }
 
