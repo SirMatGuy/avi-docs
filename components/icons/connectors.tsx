@@ -2,7 +2,7 @@ import React from "react";
 
 function DbIcons() {
     return (
-        <div className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center ">
+        <div className=" p-4 flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center ">
 
             <svg
             className="dark:fill-white fill-black"

@@ -32,9 +32,9 @@ export default function Faq() {
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3">
-                    <AccordionTrigger>How often is FAST ML updated?</AccordionTrigger>
+                    <AccordionTrigger>How often is FastML updated?</AccordionTrigger>
                     <AccordionContent>
-                        FAST ML is updated regularly to ensure it includes the latest features and improvements. Pro Plan users benefit from lifetime updates, ensuring they always have access to the latest tools and features.
+                        FastML is updated regularly to ensure it includes the latest features and improvements. Pro Plan users benefit from lifetime updates, ensuring they always have access to the latest tools and features.
 
                     </AccordionContent>
                 </AccordionItem>
@@ -52,20 +52,20 @@ export default function Faq() {
                 </AccordionItem>
                 <AccordionItem value="item-6">
                     <AccordionTrigger>What is the refund policy?</AccordionTrigger>
-                    <AccordionContent>Once you gain access to FAST ML, the subscription is non-refundable. We encourage users to thoroughly review the features and ensure it meets their needs before purchasing.
+                    <AccordionContent>Once you gain access to FastML, the subscription is non-refundable. We encourage users to thoroughly review the features and ensure it meets their needs before purchasing.
 
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-7">
-                    <AccordionTrigger>Are there any additional costs associated with using FAST ML?</AccordionTrigger>
-                    <AccordionContent>The subscription covers all the features listed under each plan. There are no hidden costs. However, depending on your specific use case, you may incur additional charges for third-party services integrated with FAST ML (e.g., cloud storage or API usage fees).
+                    <AccordionTrigger>Are there any additional costs associated with using FastML?</AccordionTrigger>
+                    <AccordionContent>The subscription covers all the features listed under each plan. There are no hidden costs. However, depending on your specific use case, you may incur additional charges for third-party services integrated with FastML (e.g., cloud storage or API usage fees).
 
 
                     </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-8">
-                    <AccordionTrigger> Can I use FAST ML with my existing projects?</AccordionTrigger>
-                    <AccordionContent>Yes, FAST ML is designed to be flexible and can be integrated with your existing projects. Our connectors and preprocessing tools are compatible with a wide range of data sources and formats, making it easy to incorporate into your current workflow.
+                    <AccordionTrigger> Can I use FastML with my existing projects?</AccordionTrigger>
+                    <AccordionContent>Yes, FastML is designed to be flexible and can be integrated with your existing projects. Our connectors and preprocessing tools are compatible with a wide range of data sources and formats, making it easy to incorporate into your current workflow.
                     </AccordionContent>
                 </AccordionItem>
             </Accordion>

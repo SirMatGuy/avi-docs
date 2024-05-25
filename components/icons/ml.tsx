@@ -2,9 +2,10 @@ import React from "react";
 
 function MLIcons() {
   return (
-    <div className="dark:invert p-4  flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center">
+    <div className=" p-4  flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center">
        
     <svg
+    className="dark:invert"
       xmlns="http://www.w3.org/2000/svg"
       width="128"
       height="285"
