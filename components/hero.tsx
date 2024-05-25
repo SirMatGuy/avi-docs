@@ -32,7 +32,7 @@ export default function Hero() {
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
       >
         {/* <AceternityLogo /> */}
-        <a href="https://mk18.lemonsqueezy.com/buy/5322a8e0-095e-4346-8e7e-726bf768b22e">Get Started</a>
+        <a href="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880">Get Started</a>
       </HoverBorderGradient>
     </div>
     </HeroHighlight>

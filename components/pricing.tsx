@@ -17,10 +17,10 @@ export default function Pricing() {
           {/* End Title */}
           <div className="relative  xl:mx-auto">
             {/* Grid */}
-            <div className="grid grid-cols-1  gap-6 lg:gap-8">
-              <div className="">
+            <div className="grid grid-cols-2  gap-6 lg:gap-8">
+              
                 {/* Card */}
-                <div className="z-50 relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-zinc-200 hover:border-transparent justify-between flex flex-col space-y-4">
+                <div className="z-50 relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-zinc-200  justify-between flex flex-col space-y-4">
                   <h3 className="text-xl font-bold text-gray-800 dark:text-neutral-200">
                   Starter
                   </h3>
@@ -29,7 +29,7 @@ export default function Pricing() {
                   </div> */}
                   <div className="mt-5">
                     <span className="text-6xl font-bold text-gray-800 dark:text-neutral-200">
-                      $18
+                      $99
                     </span>
                     <span className="text-lg font-bold text-gray-800 dark:text-neutral-200">
                       .00
@@ -181,7 +181,7 @@ export default function Pricing() {
                     
                     <div className="flex justify-end">   <a
                       type="button"
-                      href="https://mk18.lemonsqueezy.com/buy/5322a8e0-095e-4346-8e7e-726bf768b22e"
+                      href="https://fastml.lemonsqueezy.com/buy/7a4d3c38-3889-482d-bcd3-c0ac47fdff7c?enabled=391877"
                       className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-indigo-200 bg-indigo-500 text-indigo-950 shadow-sm hover:bg-indigo-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-indigo-900 dark:border-indigo-800 dark:text-white dark:hover:bg-indigo-800 transition-colors"
                     >
                       Get Started
@@ -190,7 +190,178 @@ export default function Pricing() {
                   </div>
                 </div>
                 {/* End Card */}
-              </div>
+                {/* Card */}
+                <div className="z-50 relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border-4 border-indigo-500  justify-between flex flex-col space-y-4">
+                  <h3 className="text-xl font-bold text-gray-800 dark:text-neutral-200">
+                  All-in
+                  </h3>
+                  {/* <div className="text-sm text-gray-500 dark:text-neutral-500">
+                    Everything a small team needs.
+                  </div> */}
+                  <div className="mt-5">
+                    <span className="text-6xl font-bold text-gray-800 dark:text-neutral-200">
+                      $129
+                    </span>
+                    <span className="text-lg font-bold text-gray-800 dark:text-neutral-200">
+                      .00
+                    </span>
+                    {/* <span className="ms-3 text-gray-500 dark:text-neutral-500">
+                      USD / monthly
+                    </span> */}
+                  </div>
+                  <div className="mt-5 grid sm:grid-cols-2 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+                    {/* List */}
+                    <ul className="space-y-2 text-sm sm:text-base">
+                      <li className="flex space-x-3">
+                        <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                          <svg
+                            className="flex-shrink-0 size-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <polyline points="20 6 9 17 4 12" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-800 dark:text-neutral-200">
+                          FastML boilerplate
+                        </span>
+                      </li>
+                      <li className="flex space-x-3">
+                        <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                          <svg
+                            className="flex-shrink-0 size-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <polyline points="20 6 9 17 4 12" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-800 dark:text-neutral-200">
+                          ...
+                        </span>
+                      </li>
+                      <li className="flex space-x-3">
+                        <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                          <svg
+                            className="flex-shrink-0 size-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <polyline points="20 6 9 17 4 12" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-800 dark:text-neutral-200">
+                          ...
+                        </span>
+                      </li>
+                    </ul>
+                    {/* End List */}
+                    {/* List */}
+                    {/* <ul className="space-y-2 text-sm sm:text-base">
+                      <li className="flex space-x-3">
+                        <span className="size-5 flex justify-center items-center rounded-full bg-gray-50 text-gray-500 dark:bg-neutral-800 dark:text-neutral-500">
+                          <svg
+                            className="flex-shrink-0 size-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M18 6 6 18" />
+                            <path d="m6 6 12 12" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-800 dark:text-neutral-200">
+                          Custom reports
+                        </span>
+                      </li>
+                      <li className="flex space-x-3">
+                        <span className="size-5 flex justify-center items-center rounded-full bg-gray-50 text-gray-500 dark:bg-neutral-800 dark:text-neutral-500">
+                          <svg
+                            className="flex-shrink-0 size-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M18 6 6 18" />
+                            <path d="m6 6 12 12" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-800 dark:text-neutral-200">
+                          Product support
+                        </span>
+                      </li>
+                      <li className="flex space-x-3">
+                        <span className="size-5 flex justify-center items-center rounded-full bg-gray-50 text-gray-500 dark:bg-neutral-800 dark:text-neutral-500">
+                          <svg
+                            className="flex-shrink-0 size-3.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path d="M18 6 6 18" />
+                            <path d="m6 6 12 12" />
+                          </svg>
+                        </span>
+                        <span className="text-gray-800 dark:text-neutral-200">
+                          Activity reporting
+                        </span>
+                      </li>
+                    </ul> */}
+                    {/* End List */}
+                  </div>
+                  <div className="mt-5 grid grid-cols-1 gap-x-4 py-4 first:pt-0 last:pb-0">
+                    
+                    <div className="flex justify-end">   <a
+                      type="button"
+                      href="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880"
+                      className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-indigo-200 bg-indigo-500 text-indigo-950 shadow-sm hover:bg-indigo-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-indigo-900 dark:border-indigo-800 dark:text-white dark:hover:bg-indigo-800 transition-colors"
+                    >
+                      Get Started
+                    </a>
+                    </div>
+                  </div>
+                </div>
+                {/* End Card */}
+              
 
             </div>
             {/* End Grid */}

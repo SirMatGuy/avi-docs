@@ -20,7 +20,7 @@ export default function Faq() {
                 <AccordionItem value="item-1">
                     <AccordionTrigger>What do i get exactly</AccordionTrigger>
                     <AccordionContent>
-                        1. The NextJS starter with all the boilerplate code you need to start building your ML workflows.<br />
+                        1. The FastML starter with all the boilerplate code you need to start building your ML workflows.<br />
                         2. The documentation helps you set up your pipelines from scratch<br />
 
                         3. Access to our Discord with makers who build fast to stay accountable!<br />
