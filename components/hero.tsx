@@ -21,7 +21,7 @@ export default function Hero() {const words = ["better", "faster", "innovative",
          className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
        >
          
-         <a href="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880">Get Started</a>
+         <a href="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880&checkout[discount_code]=LAUNCH">Get Started</a>
        </HoverBorderGradient>
      </div>
       {/* <motion.h1

@@ -6,9 +6,5 @@
     "theme": {
       "layout": "raw"
     }
-  },
-  "docs": {
-    "type": "page",
-    "title": "Documentation"
   }
 }

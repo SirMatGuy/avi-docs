@@ -53,6 +53,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Fast ML - The Python ML Boilderplate',
   },
+  themeSwitch:{
+    component:<></>
+  },
+  nextThemes: {
+    defaultTheme: 'dark'
+  },
   head: function useHead() {
     const { title } = useConfig()
     const { route } = useRouter()

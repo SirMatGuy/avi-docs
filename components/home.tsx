@@ -2,7 +2,9 @@ import BentoGridComponent from "./bento";
 import { AnimatedBeamDemo } from "./explanation";
 import Faq from "./faq";
 import Hero from "./hero";
+import Lead from "./lead";
 import Pricing from "./pricing";
+import Testemonial from "./testemonial";
 import Welcome from "./welcome";
 
 export default function Home() {
@@ -16,8 +18,10 @@ export default function Home() {
             <Welcome/>
             
             <BentoGridComponent/>
+            <Testemonial/>
             <Pricing/>
             <Faq/>
+            <Lead/>
             </div>
         </section>
     )
