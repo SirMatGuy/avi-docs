@@ -46,7 +46,7 @@ export default function Pricing() {
               </svg>{" "}
               <span>
                 <span className="text-green-500">$100{/* */} off</span> for the first {/* */}
-                3450{/* */} customers ({/* */}10{/* */} left)
+                350{/* */} customers ({/* */}50{/* */} left)
               </span>
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function Pricing() {
           <div className="relative  xl:mx-auto">
             {/* Grid */}
 
-            <div className="grid grid-cols-2  gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2  gap-6 lg:gap-8">
 
 
               <PricingCard features={starterFeatures} link="https://fastml.lemonsqueezy.com/buy/7a4d3c38-3889-482d-bcd3-c0ac47fdff7c?enabled=391877&checkout[discount_code]=LAUNCH" currentPrice={99} beforePrice={199} variant="Starter" />

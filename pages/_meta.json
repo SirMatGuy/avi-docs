@@ -6,5 +6,20 @@
     "theme": {
       "layout": "raw"
     }
+  },
+  "docs":{
+    "title":"Documentation",
+    "display":"hidden",
+    "type":"page"
+  },
+  "privacy":{
+    "title":"Privacy Policy",
+    "type":"page",
+    "display":"hidden"
+  },
+  "toc":{
+    "title":"Terms And Conditions",
+    "type":"page",
+    "display":"hidden"
   }
 }

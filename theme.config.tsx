@@ -1,6 +1,7 @@
 import React from 'react'
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
 import { useRouter } from 'next/router'
+import Footer from './components/footer'
 const logo = (
   <div>
 
@@ -50,8 +51,8 @@ const config: DocsThemeConfig = {
   //   link: 'https://discord.com',
   // },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Fast ML - The Python ML Boilderplate',
+  footer:{
+component:<Footer/>
   },
   themeSwitch:{
     component:<></>

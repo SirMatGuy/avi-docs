@@ -10,7 +10,9 @@ export default function Hero() {const words = ["better", "faster", "innovative",
     <HeroHighlight className="space-y-12 ">
       <div className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white  max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto ">
         Build
-        <FlipWords words={words} /> <br />
+        <span className="text-indigo-400">
+        <FlipWords className="" words={words} /> <br />
+          </span>
         ML Pipelines with FastML
       </div>
       <div className="mx-40 flex justify-center text-center">

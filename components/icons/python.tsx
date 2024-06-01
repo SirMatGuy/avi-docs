@@ -2,7 +2,7 @@ import React from "react";
 
 function PythonIcon() {
   return (
-    <div className="flex flex-1 max-w-full w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center ">
+    <div className="flex lg:flex-1 max-w-full h-40 lg:h-48 dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2 items-center ">
 
   
     <svg
