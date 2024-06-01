@@ -12,7 +12,7 @@ export default function Home() {
 
 
     return (
-        <section className="space-y-12 mb-24">
+        <section className="space-y-12 mb-24 overflow-hidden">
             <Hero/>
             <div className="px-6 lg:px-0 spacing-y-8">
             <Welcome/>

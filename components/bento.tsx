@@ -16,7 +16,7 @@ export default function BentoGridComponent() {
     return (
         <div className="mx-auto max-w-4xl min-w-0 space-y-2 ">
             <div className="mb-8 lg:mb-14">
-                <h2 className="scroll-m-20 text-4xl font-bold tracking-tight text-black dark:text-white leading-[3.5rem] lg:leading-10">Spend less time debugging, <span className="relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500">more time innovating.</span> 
+                <h2 className="scroll-m-20 text-2xl lg:text-4xl font-bold tracking-tight text-black dark:text-white  lg:leading-10">Spend less time debugging, <span className="relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500">more time innovating.</span> 
                 </h2>
                 <p className="text-lg text-zinc-500 dark:text-zinc-400">From data ingestion to deployment, we've got you covered</p>
             </div>

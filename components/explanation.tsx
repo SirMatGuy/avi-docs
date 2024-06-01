@@ -41,55 +41,55 @@ export function AnimatedBeamDemo() {
   const div11Ref = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="mx-auto max-w-4xl min-w-0 space-y-2">
+    <section className="mx-auto max-w-sm lg:max-w-4xl min-w-0 space-y-2  overflow-hidden">
       <div
-        className="relative flex w-full max-w-4xl items-center justify-center overflow-hidden rounded-lg bg-background p-10 md:shadow-xl"
+        className="relative flex w-full max-w-sm lg:max-w-4xl items-center justify-center overflow-hidden rounded-lg bg-background p-10 md:shadow-xl"
         ref={containerRef}
       >
-        <div className="flex h-full w-full flex-row items-stretch justify-between gap-10">
+        <div className="flex mx-auto h-full w-full flex-row items-stretch justify-between gap-10">
           {/* <div className="flex flex-col justify-center">
             <Circle ref={div1Ref}>
               <IconUser className="text-black" />
             </Circle>
           </div> */}
           <div className="flex flex-col justify-center gap-2 text-black">
-            <Circle ref={div2Ref} className=" size-10 lg:size-16">
-              <IconDatabase className="lg:size-6 size-8 " />
+            <Circle ref={div2Ref} className=" size-5 lg:size-16">
+              <IconDatabase className="lg:size-6 size-2 " />
             </Circle>
-            <Circle ref={div3Ref} className=" size-10 lg:size-16">
-              <IconBrandMongodb className="lg:size-6 size-8 " />
+            <Circle ref={div3Ref} className=" size-5 lg:size-16">
+              <IconBrandMongodb className="lg:size-6 size-2 " />
             </Circle>
-            <Circle ref={div4Ref} className=" size-10 lg:size-16">
-              <IconBrandCouchdb className="lg:size-6 size-8 " />
+            <Circle ref={div4Ref} className=" size-5 lg:size-16">
+              <IconBrandCouchdb className="lg:size-6 size-2 " />
             </Circle>
-            <Circle ref={div5Ref} className=" size-10 lg:size-16">
-              <IconSql className="lg:size-6 size-8 " />
+            <Circle ref={div5Ref} className=" size-5 lg:size-16">
+              <IconSql className="lg:size-6 size-2 " />
             </Circle>
           </div>
           <div className="flex flex-col justify-center text-black">
-            <Circle ref={div6Ref} className=" size-10 lg:size-16">
-              <IconBrandPython className="lg:size-6 size-8 " />
+            <Circle ref={div6Ref} className=" size-5 lg:size-16">
+              <IconBrandPython className="lg:size-6 size-2 " />
             </Circle>
           </div>
           <div className="flex flex-col justify-center gap-2 text-black">
-            <Circle ref={div7Ref} className=" size-10 lg:size-16">
-              <IconBrandOpenai className="lg:size-6 size-8 " />
+            <Circle ref={div7Ref} className=" size-5 lg:size-16">
+              <IconBrandOpenai className="lg:size-6 size-2 " />
             </Circle>
-            <Circle ref={div8Ref} className=" size-10 lg:size-16">
-              <IconBrandTensor className="lg:size-6 size-8 " />
+            <Circle ref={div8Ref} className=" size-5 lg:size-16">
+              <IconBrandTensor className="lg:size-6 size-2 " />
             </Circle>
-            <Circle ref={div9Ref} className=" size-10 lg:size-16">
-              <IconBrandKeras className="lg:size-6 size-8 " />
+            <Circle ref={div9Ref} className=" size-5 lg:size-16">
+              <IconBrandKeras className="lg:size-6 size-2 " />
             </Circle>
 
           </div>
           <div className="flex flex-col justify-center text-black">
-            <Circle ref={div10Ref} className=" size-10 lg:size-16">
+            <Circle ref={div10Ref} className=" size-5 lg:size-16">
               <IconActivity className="h-6 w-6" />
             </Circle>
           </div>
           <div className="flex flex-col justify-center text-black">
-            <Circle ref={div11Ref} className=" size-10 lg:size-16">
+            <Circle ref={div11Ref} className=" size-5 lg:size-16">
               <IconCloud className="h-6 w-6" />
             </Circle>
           </div>

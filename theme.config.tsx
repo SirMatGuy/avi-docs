@@ -44,18 +44,18 @@ const logo = (
 )
 const config: DocsThemeConfig = {
   logo,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
+  // project: {
+  //   link: 'https://github.com/shuding/nextra-docs-template',
+  // },
   // chat: {
   //   link: 'https://discord.com',
   // },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer:{
-component:<Footer/>
+  // docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  footer: {
+    component: <Footer />
   },
-  themeSwitch:{
-    component:<></>
+  themeSwitch: {
+    component: <></>
   },
   nextThemes: {
     defaultTheme: 'dark'
@@ -84,11 +84,11 @@ component:<Footer/>
         />
         <meta name="twitter:card" content="summary_large_image" />
         {/* <meta name="twitter:image" content={socialCard} /> */}
-        <meta name="twitter:site:domain" content="fastml.site" />
-        <meta name="twitter:url" content="https://fastml.site" />
+        <meta name="twitter:site:domain" content="fastml.co" />
+        <meta name="twitter:url" content="https://fastml.co" />
         <meta
           name="og:title"
-          content={title ? title + ' – FastML' : 'FastML'}
+          content={title ? title + '- FastML' : 'FastML'}
         />
         {/* <meta name="og:image" content={socialCard} /> */}
         <meta name="apple-mobile-web-app-title" content="FastML" />
@@ -109,6 +109,14 @@ component:<Footer/>
       </>
     )
   },
+  useNextSeoProps: () => {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – FastML'
+      }
+    }
+  }
 }
 
 export default config
