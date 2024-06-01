@@ -27,7 +27,7 @@ export default function Pricing() {
       <div className="overflow-hidden">
         <div className="max-w-4xl py-10 lg:py-14 mx-auto">
           {/* Title */}
-          <div className=" mb-8 ">
+          <div  id="pricing" className=" mb-8 ">
             <h2 className="scroll-m-20 text-4xl font-bold tracking-tight text-black dark:text-white">
 
               Get Started Today!

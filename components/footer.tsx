@@ -23,7 +23,7 @@ export default function Footer(){
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
-                href="#"
+                href="/avi-docs/toc"
               >
                 Terms
               </a>
@@ -31,7 +31,7 @@ export default function Footer(){
             <p>
               <a
                 className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
-                href="#"
+                href="/avi-docs/privacy"
               >
                 Privacy
               </a>

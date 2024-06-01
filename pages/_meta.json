@@ -12,6 +12,10 @@
     "display":"hidden",
     "type":"page"
   },
+  "pricing": {
+    "title": "Pricing",
+    "href": "/#pricing"
+  },
   "privacy":{
     "title":"Privacy Policy",
     "type":"page",
