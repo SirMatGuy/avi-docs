@@ -7,36 +7,40 @@
       "layout": "raw"
     }
   },
-  "pricing_link":{
-    "title":"Pricing",
-    "type":"page",
-    "href":"#pricing"
+  "pricing_link": {
+    "title": "Pricing",
+    "type": "page",
+    "href": "#pricing"
   },
-  "about_link":{
-    "title":"About",
-    "type":"page",
-    "href":"#about"
+  "about_link": {
+    "title": "About",
+    "type": "page",
+    "href": "#about"
   },
-  "faq_link":{
-    "title":"FAQ",
-    "type":"page",
-    "href":"#faq"
+  "faq_link": {
+    "title": "FAQ",
+    "type": "page",
+    "href": "#faq"
   },
-  "docs":{
-    "title":"Documentation",
-    "display":"hidden",
-    "type":"page",
-    "theme":{
-    }
+  "docs": {
+    "title": "Documentation",
+    "display": "hidden",
+    "type": "page",
+    "theme": {}
   },
-  "privacy":{
-    "title":"Privacy Policy",
-    "type":"page",
-    "display":"hidden"
+  "privacy": {
+    "title": "Privacy Policy",
+    "type": "page",
+    "display": "hidden"
   },
-  "toc":{
-    "title":"Terms And Conditions",
-    "type":"page",
-    "display":"hidden"
+  "toc": {
+    "title": "Terms And Conditions",
+    "type": "page",
+    "display": "hidden"
+  },
+  "contact_link": {
+    "title": "Contact Us",
+    "type": "page",
+    "href": "mailto:aviroshkovan4@gmail.com"
   }
 }

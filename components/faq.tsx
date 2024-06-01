@@ -24,13 +24,7 @@ export default function Faq() {
 
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-2">
-                    <AccordionTrigger>What additional features are included in the Pro Plan?</AccordionTrigger>
-                    <AccordionContent>
-                        The Pro Plan offers everything in the Basic Plan plus advanced data ingestion, preprocessing, and modeling capabilities. It includes enhanced connectors, advanced noise reduction, comprehensive feature selection, specialized preprocessing for various data types, access to OpenAI models, advanced image classification, and cutting-edge regression models. It also provides advanced model management, enhanced deployment strategies, CI/CD integration, detailed experiment tracking with Weights & Biases (wandb), and advanced system metrics monitoring. Additionally, it includes access to a private Discord community, priority customer support, and lifetime updates.
-
-                    </AccordionContent>
-                </AccordionItem>
+              
                 <AccordionItem value="item-3">
                     <AccordionTrigger>How often is FastML updated?</AccordionTrigger>
                     <AccordionContent>
@@ -56,13 +50,7 @@ export default function Faq() {
 
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-7">
-                    <AccordionTrigger>Are there any additional costs associated with using FastML?</AccordionTrigger>
-                    <AccordionContent>The subscription covers all the features listed under each plan. There are no hidden costs. However, depending on your specific use case, you may incur additional charges for third-party services integrated with FastML (e.g., cloud storage or API usage fees).
-
-
-                    </AccordionContent>
-                </AccordionItem>
+          
                 <AccordionItem value="item-8">
                     <AccordionTrigger> Can I use FastML with my existing projects?</AccordionTrigger>
                     <AccordionContent>Yes, FastML is designed to be flexible and can be integrated with your existing projects. Our connectors and preprocessing tools are compatible with a wide range of data sources and formats, making it easy to incorporate into your current workflow.
