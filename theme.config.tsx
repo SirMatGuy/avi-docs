@@ -71,10 +71,8 @@ component:null
   head: function useHead() {
     const { title } = useConfig()
     const { route } = useRouter()
-    // const socialCard =
-    //   route === '/' || !title
-    //     ? 'https://nextra.site/og.jpeg'
-    //     : `https://nextra.site/api/og?title=${title}`
+    const socialCard ='https://fastml.co/og.jpeg'
+      
 
     return (
       <>
@@ -91,26 +89,26 @@ component:null
           content="Create ML Pipelines with ease."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        {/* <meta name="twitter:image" content={socialCard} /> */}
+        <meta name="twitter:image" content={socialCard} />
         <meta name="twitter:site:domain" content="fastml.co" />
         <meta name="twitter:url" content="https://fastml.co" />
         <meta
           name="og:title"
           content={title ? title + '- FastML' : 'FastML'}
         />
-        {/* <meta name="og:image" content={socialCard} /> */}
+        <meta name="og:image" content={socialCard} />
         <meta name="apple-mobile-web-app-title" content="FastML" />
-        <link rel="icon" href="/fastml-docs/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/fastml-docs/favicon.png" type="image/png" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
         <link
           rel="icon"
-          href="/fastml-docs/favicon-dark.svg"
+          href="/favicon-dark.svg"
           type="image/svg+xml"
           media="(prefers-color-scheme: dark)"
         />
         <link
           rel="icon"
-          href="/fastml-docs/favicon-dark.png"
+          href="/favicon-dark.png"
           type="image/png"
           media="(prefers-color-scheme: dark)"
         />
@@ -121,7 +119,7 @@ component:null
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: '%s – FastML'
+        titleTemplate: '%s - FastML'
       }
     }
   }
