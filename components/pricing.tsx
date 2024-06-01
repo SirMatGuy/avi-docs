@@ -57,8 +57,8 @@ export default function Pricing() {
             <div className="grid grid-cols-1 lg:grid-cols-2  gap-6 lg:gap-8">
 
 
-              <PricingCard features={starterFeatures} link="https://fastml.lemonsqueezy.com/buy/7a4d3c38-3889-482d-bcd3-c0ac47fdff7c?enabled=391877&checkout[discount_code]=LAUNCH" currentPrice={99} beforePrice={199} variant="Starter" />
-              <PricingCard className="border-2 dark:border-purple-500 " features={allinFeatures} link="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880&checkout[discount_code]=LAUNCH" currentPrice={129} beforePrice={229} variant="All-in" />
+              <PricingCard features={starterFeatures} link="https://fastml.lemonsqueezy.com/buy/7a4d3c38-3889-482d-bcd3-c0ac47fdff7c?enabled=391877" currentPrice={99} beforePrice={199} variant="Starter" />
+              <PricingCard className="border-2 dark:border-purple-500 " features={allinFeatures} link="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880" currentPrice={129} beforePrice={229} variant="All-in" />
 
             </div>
             {/* End Grid */}

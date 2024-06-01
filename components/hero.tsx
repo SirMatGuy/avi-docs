@@ -38,7 +38,7 @@ export default function Hero() {
             className="dark:bg-black bg-white text-black dark:text-white flex min-w-0 text-nowrap  items-center space-x-2"
           >
 
-            <a className="" href="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880&checkout[discount_code]=LAUNCH">Get Started</a>
+            <a className="" href="https://fastml.lemonsqueezy.com/buy/6ae13a25-4014-4be2-8ce9-d5aaf817e71a?enabled=391880">Get Started</a>
           </HoverBorderGradient>
         </div>
         {/* <motion.h1
