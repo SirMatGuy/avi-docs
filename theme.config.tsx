@@ -54,6 +54,12 @@ const config: DocsThemeConfig = {
   footer: {
     component: <Footer />
   },
+  editLink:{
+component:null
+  },
+  feedback:{
+    content:null
+  },
   themeSwitch: {
     component: <></>
   },
@@ -92,17 +98,17 @@ const config: DocsThemeConfig = {
         />
         {/* <meta name="og:image" content={socialCard} /> */}
         <meta name="apple-mobile-web-app-title" content="FastML" />
-        <link rel="icon" href="/avi-docs/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/avi-docs/favicon.png" type="image/png" />
+        <link rel="icon" href="/fastml-docs/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/fastml-docs/favicon.png" type="image/png" />
         <link
           rel="icon"
-          href="/avi-docs/favicon-dark.svg"
+          href="/fastml-docs/favicon-dark.svg"
           type="image/svg+xml"
           media="(prefers-color-scheme: dark)"
         />
         <link
           rel="icon"
-          href="/avi-docs/favicon-dark.png"
+          href="/fastml-docs/favicon-dark.png"
           type="image/png"
           media="(prefers-color-scheme: dark)"
         />

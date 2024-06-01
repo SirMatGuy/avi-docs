@@ -46,7 +46,7 @@ export default function Pricing() {
               </svg>{" "}
               <span>
                 <span className="text-green-500">$100{/* */} off</span> for the first {/* */}
-                350{/* */} customers ({/* */}50{/* */} left)
+                350{/* */} customers ({/* */}19{/* */} left)
               </span>
             </p>
           </div>

@@ -7,17 +7,17 @@
       "layout": "raw"
     }
   },
-  "pricing-link":{
+  "pricing_link":{
     "title":"Pricing",
     "type":"page",
     "href":"#pricing"
   },
-  "about-link":{
+  "about_link":{
     "title":"About",
     "type":"page",
     "href":"#about"
   },
-  "faq-link":{
+  "faq_link":{
     "title":"FAQ",
     "type":"page",
     "href":"#faq"
@@ -27,7 +27,6 @@
     "display":"hidden",
     "type":"page",
     "theme":{
-      "sidebar": false      
     }
   },
   "privacy":{
