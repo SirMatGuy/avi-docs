@@ -25,7 +25,10 @@
   "docs":{
     "title":"Documentation",
     "display":"hidden",
-    "type":"page"
+    "type":"page",
+    "theme":{
+      "sidebar": false      
+    }
   },
   "privacy":{
     "title":"Privacy Policy",
