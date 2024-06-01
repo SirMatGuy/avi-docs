@@ -5,7 +5,7 @@ const withNextra = require("nextra")({
 
 module.exports = withNextra({
   output: 'export',
-  basePath: "/avi-docs",
+  basePath: "/fastml-docs",
   images: {
     unoptimized: true,
   },
