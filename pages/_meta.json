@@ -7,14 +7,25 @@
       "layout": "raw"
     }
   },
+  "pricing-link":{
+    "title":"Pricing",
+    "type":"page",
+    "href":"#pricing"
+  },
+  "about-link":{
+    "title":"About",
+    "type":"page",
+    "href":"#about"
+  },
+  "faq-link":{
+    "title":"FAQ",
+    "type":"page",
+    "href":"#faq"
+  },
   "docs":{
     "title":"Documentation",
     "display":"hidden",
     "type":"page"
-  },
-  "pricing": {
-    "title": "Pricing",
-    "href": "/#pricing"
   },
   "privacy":{
     "title":"Privacy Policy",

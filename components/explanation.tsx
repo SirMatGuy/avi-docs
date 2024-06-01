@@ -41,7 +41,7 @@ export function AnimatedBeamDemo() {
   const div11Ref = useRef<HTMLDivElement>(null);
 
   return (
-    <section className="mx-auto max-w-sm lg:max-w-4xl min-w-0 space-y-2  overflow-hidden">
+    <section  className="mx-auto max-w-sm lg:max-w-4xl min-w-0 space-y-2  overflow-hidden">
       <div
         className="relative flex w-full max-w-sm lg:max-w-4xl items-center justify-center overflow-hidden rounded-lg bg-background p-10 md:shadow-xl"
         ref={containerRef}
@@ -53,43 +53,43 @@ export function AnimatedBeamDemo() {
             </Circle>
           </div> */}
           <div className="flex flex-col justify-center gap-2 text-black">
-            <Circle ref={div2Ref} className=" size-5 lg:size-16">
-              <IconDatabase className="lg:size-6 size-2 " />
+            <Circle ref={div2Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconDatabase className="w-full h-full " />
             </Circle>
-            <Circle ref={div3Ref} className=" size-5 lg:size-16">
-              <IconBrandMongodb className="lg:size-6 size-2 " />
+            <Circle ref={div3Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconBrandMongodb className="w-full h-full " />
             </Circle>
-            <Circle ref={div4Ref} className=" size-5 lg:size-16">
-              <IconBrandCouchdb className="lg:size-6 size-2 " />
+            <Circle ref={div4Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconBrandCouchdb className="w-full h-full " />
             </Circle>
-            <Circle ref={div5Ref} className=" size-5 lg:size-16">
-              <IconSql className="lg:size-6 size-2 " />
+            <Circle ref={div5Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconSql className="w-full h-full " />
             </Circle>
           </div>
           <div className="flex flex-col justify-center text-black">
-            <Circle ref={div6Ref} className=" size-5 lg:size-16">
-              <IconBrandPython className="lg:size-6 size-2 " />
+            <Circle ref={div6Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconBrandPython className="w-full h-full " />
             </Circle>
           </div>
           <div className="flex flex-col justify-center gap-2 text-black">
-            <Circle ref={div7Ref} className=" size-5 lg:size-16">
-              <IconBrandOpenai className="lg:size-6 size-2 " />
+            <Circle ref={div7Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconBrandOpenai className="w-full h-full " />
             </Circle>
-            <Circle ref={div8Ref} className=" size-5 lg:size-16">
-              <IconBrandTensor className="lg:size-6 size-2 " />
+            <Circle ref={div8Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconBrandTensor className="w-full h-full " />
             </Circle>
-            <Circle ref={div9Ref} className=" size-5 lg:size-16">
-              <IconBrandKeras className="lg:size-6 size-2 " />
+            <Circle ref={div9Ref} className=" size-10 lg:size-16 lg:p-5">
+              <IconBrandKeras className="w-full h-full " />
             </Circle>
 
           </div>
           <div className="flex flex-col justify-center text-black">
-            <Circle ref={div10Ref} className=" size-5 lg:size-16">
+            <Circle ref={div10Ref} className=" size-10 lg:size-16 lg:p-5">
               <IconActivity className="h-6 w-6" />
             </Circle>
           </div>
           <div className="flex flex-col justify-center text-black">
-            <Circle ref={div11Ref} className=" size-5 lg:size-16">
+            <Circle ref={div11Ref} className=" size-10 lg:size-16 lg:p-5">
               <IconCloud className="h-6 w-6" />
             </Circle>
           </div>

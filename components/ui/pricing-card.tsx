@@ -13,7 +13,7 @@ export default function PricingCard(props: {
 
 
     return (
-        <div className={cn("z-50 relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-zinc-200  justify-between flex flex-col space-y-4",props.className)}>
+        <div className={cn("z-10 relative rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-zinc-200  justify-between flex flex-col space-y-4",props.className)}>
             <h3 className="text-xl font-bold text-gray-800 dark:text-neutral-200">
                 {props.variant}
             </h3>
