@@ -14,7 +14,7 @@ export default function Hero() {
     <div className="mb-10 lg:mb-20">
       <HeroHighlight className="space-y-8 flex justify-center items-center flex-col">
         <div className="text-2xl px-4 md:text-4xl lg:text-4xl  font-bold text-neutral-700 dark:text-white  max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto ">
-          Kickstart your ML journey with
+        The Quickest Way to Build  
         <AnimatedGradientText>
        
         <span
@@ -22,7 +22,7 @@ export default function Hero() {
             `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
           )}
         >
-          FastML
+          ML Pipelines
         </span>
       </AnimatedGradientText>
 

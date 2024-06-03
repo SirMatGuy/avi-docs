@@ -68,6 +68,10 @@ component:null
   nextThemes: {
     defaultTheme: 'dark'
   },
+  search:{
+    //
+    component: null,
+  },
   head: function useHead() {
     const { title } = useConfig()
     const { route } = useRouter()

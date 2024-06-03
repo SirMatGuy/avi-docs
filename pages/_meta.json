@@ -37,10 +37,5 @@
     "title": "Terms And Conditions",
     "type": "page",
     "display": "hidden"
-  },
-  "contact_link": {
-    "title": "Contact Us",
-    "type": "page",
-    "href": "mailto:aviroshkovan4@gmail.com"
   }
 }

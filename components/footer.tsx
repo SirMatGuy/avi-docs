@@ -10,12 +10,17 @@ export default function Footer(){
         <div className="col-span-full lg:col-span-1">
           <a
             className="flex-none text-xl font-semibold text-white"
-            href="#"
+            href="/"
             aria-label="Brand"
           >
             <span className="text-indigo-500">FastML</span> <br/> The Python ML Boilerplate
           </a>
         </div>
+          <a className="flex-none text-base font-semibold text-white/90"
+            href="mailto:aviroshkovan4@gmail.com"
+            aria-label="email">
+           Contact me at: aviroshkovan4@gmail.com
+          </a>
         {/* End Col */}
         <div className="col-span-1">
           <h4 className="font-semibold text-gray-100">Legal</h4>
