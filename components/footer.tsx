@@ -1,74 +1,77 @@
-export default function Footer(){
+export default function Footer() {
 
-    return (
-        <>
-  {/* ========== FOOTER ========== */}
-  <footer className="mt-auto bg-gray-900 w-full dark:bg-neutral-950">
-    <div className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
-      {/* Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-        <div className="col-span-full lg:col-span-1">
-          <a
-            className="flex-none text-xl font-semibold text-white"
-            href="/"
-            aria-label="Brand"
-          >
-            <span className="text-indigo-500">FastML</span> <br/> The Python ML Boilerplate
-          </a>
-        </div>
-          <a className="flex-none text-base font-semibold text-white/90"
-            href="mailto:aviroshkovan4@gmail.com"
-            aria-label="email">
-           Contact me at: aviroshkovan4@gmail.com
-          </a>
-        {/* End Col */}
-        <div className="col-span-1">
-          <h4 className="font-semibold text-gray-100">Legal</h4>
-          <div className="mt-3 grid space-y-3">
-            <p>
+  return (
+    <>
+      {/* ========== FOOTER ========== */}
+      <footer className="mt-auto bg-gray-900 w-full dark:bg-neutral-950">
+        <div className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
+          {/* Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+            <div className="col-span-full lg:col-span-1">
               <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
-                href="/avi-docs/toc"
+                className="flex-none text-xl font-semibold text-white"
+                href="/"
+                aria-label="Brand"
               >
-                Terms
+                <span className="text-indigo-500">FastML</span> <br /> The Python ML Boilerplate
               </a>
-            </p>
-            <p>
+            </div>
+            {/* End Col */}
+            <div className="col-span-1">
+              <h4 className="font-semibold text-gray-100">Legal</h4>
+              <div className="mt-3 grid space-y-3">
+                <p>
+                  <a
+                    className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
+                    href="/avi-docs/toc"
+                  >
+                    Terms
+                  </a>
+                </p>
+                <p>
+                  <a
+                    className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
+                    href="/avi-docs/privacy"
+                  >
+                    Privacy
+                  </a>
+                </p>
+                {/* <p>
               <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
-                href="/avi-docs/privacy"
+              className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
+              href="#"
               >
-                Privacy
-              </a>
-            </p>
-            {/* <p>
-              <a
-                className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200 dark:text-neutral-400 dark:hover:text-neutral-200"
-                href="#"
-              >
-                Docs
+              Docs
               </a>
             </p> */}
+              </div>
+            </div>
+            <div className="col-span-1">
+
+              <a className="flex-none text-base font-semibold text-white/90"
+                href="mailto:aviroshkovan4@gmail.com"
+                aria-label="email">
+                Contact me at: aviroshkovan4@gmail.com
+              </a>
+            </div>
+
+          </div>
+          {/* End Grid */}
+          <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
+            <div className="flex justify-between items-center">
+              <p className="text-sm text-gray-400 dark:text-neutral-400">
+                © 2024 FastML. All rights reserved.
+              </p>
+            </div>
+            {/* End Col */}
+            {/* Social Brands */}
+
+            {/* End Social Brands */}
           </div>
         </div>
-       
-      </div>
-      {/* End Grid */}
-      <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
-        <div className="flex justify-between items-center">
-          <p className="text-sm text-gray-400 dark:text-neutral-400">
-            © 2024 FastML. All rights reserved.
-          </p>
-        </div>
-        {/* End Col */}
-        {/* Social Brands */}
-       
-        {/* End Social Brands */}
-      </div>
-    </div>
-  </footer>
-  {/* ========== END FOOTER ========== */}
-</>
+      </footer>
+      {/* ========== END FOOTER ========== */}
+    </>
 
-    )
+  )
 }
