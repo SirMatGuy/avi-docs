@@ -4,5 +4,6 @@
     "data-preprocessing": "Data Preprocessing",
     "modeling": "Modeling",
     "monitoring": "Monitoring",
-    "deployment": "Deployment"
+    "deployment": "Deployment",
+    "examples": "Examples"
 }
