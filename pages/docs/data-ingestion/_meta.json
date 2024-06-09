@@ -1,3 +1,9 @@
 {
-    "csv-connector": "CSV Connector"
+    "csv-connector": "CSV Connector",
+    "mongodb-connector": "MongoDB Connector",
+    "sql-connector": "SQL Connector",
+    "redis-connector": "Redis Connector",
+    "neo4j-connector": "Neo4j Connector",
+    "couchbase-connector": "Couchbase Connector",
+    "cassandra-connector": "Cassandra Connector"
 }

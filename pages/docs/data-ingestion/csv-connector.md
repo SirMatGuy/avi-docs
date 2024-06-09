@@ -1,15 +1,56 @@
-## Functions
+# Module: csv_connector.py
 
-### read_csv
+## Class and Functions
+
+### CSVConnector
+
 ```python
-def read_csv(file_path: str) -> pd.DataFrame:
+class CSVConnector:
     """
-    Reads a CSV file and returns a DataFrame.
-    
+    CSVConnector facilitates reading data from CSV files.
+    """
+
+
+def __init__(self, file_path):
+    """
+    Initializes the CSVConnector with the path to the folder containing CSV files.
+    """
+
+
+def fetch_data(self):
+    """
+    Reads data from a CSV file.
+
     Parameters:
-    - file_path (str): The path to the CSV file.
-    
+        filename (str): Name of the CSV file to read.
+
     Returns:
-    - pd.DataFrame: A DataFrame containing the CSV data.
+        result (DataFrame): A pandas DataFrame containing the data from the CSV file.
+    """
+
+
+def new_data(self, data):
+    """
+    Saves data to a CSV file.
+
+    Parameters:
+        data (DataFrame): Data to be saved to the CSV file.
+        filename (str): Name of the CSV file to save.
+
+    Returns:
+        None
+    """
+
+
+def append_to_csv(self, data):
+    """
+    Appends data to an existing CSV file.
+
+    Parameters:
+        file_path (str): Path to the CSV file.
+        data (DataFrame): Data to be appended to the CSV file.
+
+    Returns:
+        None
     """
 ```
