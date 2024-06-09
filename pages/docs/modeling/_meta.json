@@ -2,5 +2,7 @@
     "regression": "Regression",
     "classification-images": "Classification - Images",
     "classification-tabular-data": "Classification - Tabular",
-    "clustering": "Clustering"
+    "clustering": "Clustering",
+    "nlp": "NLP",
+    "openai": "OpenAI"
 }
