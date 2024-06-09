@@ -1,5 +1,6 @@
 {
     "index": "Introduction",
     "data-ingestion": "Data Ingestion",
-    "data-preprocessing": "Data Preprocessing"
+    "data-preprocessing": "Data Preprocessing",
+    "modeling": "Modeling"
 }

@@ -1,0 +1,6 @@
+{
+    "regression": "Regression",
+    "classification-images": "Classification - Images",
+    "classification-tabular-data": "Classification - Tabular",
+    "clustering": "Clustering"
+}

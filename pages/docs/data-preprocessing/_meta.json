@@ -1,5 +1,9 @@
 {
     "tabular-data": "Tabular Data",
-    "text": "Text"
+    "text": "Text",
+    "time-series": "Time Series",
+    "images": "Images",
+    "graph": "Graph",
+    "audio": "Audio"
 
 }
