@@ -2,5 +2,7 @@
     "index": "Introduction",
     "data-ingestion": "Data Ingestion",
     "data-preprocessing": "Data Preprocessing",
-    "modeling": "Modeling"
+    "modeling": "Modeling",
+    "monitoring": "Monitoring",
+    "deployment": "Deployment"
 }
