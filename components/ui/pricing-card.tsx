@@ -39,7 +39,7 @@ export default function PricingCard(props: {
                 <ul className="space-y-2 text-sm sm:text-base">
                     {props.features.filter(x=>x.available).map((item) =>
                     (
-                        <li className="flex space-x-3">
+                        <li id={item.text} className="flex space-x-3">
 
                             <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
                                 <svg
